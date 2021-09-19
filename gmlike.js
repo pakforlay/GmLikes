@@ -3,17 +3,9 @@ const readlineSync = require('readline-sync');
 var chalk = require('chalk');
 const delay = require('delay');
 const fs = require('fs');
-const randomUseragent = require('random-useragent');
 console.log('\n'+chalk.green('[+] gmlikes by GygDoggy' + '\n'))
 var email = readlineSync.question('[+] Email Regist : ');
-var usdt = readlineSync.question('[+] input address usdt : ');
-/* var random_name = require('node-random-name');
-        var name1 = random_name({
-            first: true
-        });
-        var name2 = random_name({
-            last: true
-        }); */
+var usdt = readlineSync.question('[+] input usdt : ');
         const $options = {
             waitUntil: 'networkidle2'
         };
