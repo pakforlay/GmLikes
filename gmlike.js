@@ -5,7 +5,7 @@ const delay = require('delay');
 const fs = require('fs');
 console.log('\n'+chalk.green('[+] gmlikes by GygDoggy' + '\n'))
 var email = readlineSync.question('[+] Email Regist : ');
-var usdt = readlineSync.question('[+] input usdt : ');
+var usdt = readlineSync.question('[+] input Address usdt (TRC20) : ');
         const $options = {
             waitUntil: 'networkidle2'
         };
